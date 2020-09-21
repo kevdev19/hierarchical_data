@@ -1,7 +1,7 @@
 from django.contrib import admin
 
-from mptt.admin import MPTTModelAdmin
+from mptt.admin import DraggableMPTTAdmin 
 
 from .models import Folder
 
-admin.site.register(Folder, MPTTModelAdmin)
+admin.site.register(Folder, DraggableMPTTAdmin)
