@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from mptt_app.views import get_folders_view
+
 urlpatterns = [
+    path('', get_folders_view),
     path('admin/', admin.site.urls),
 ]
