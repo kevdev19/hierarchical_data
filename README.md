@@ -1,5 +1,7 @@
 # Hierarchical Data
 
+<img src="preview.png">
+
 ## What This Website Is About
 
 A Django-based server that uses the Modified Preorder Tree Traversal (MPTT) technique to store hierarchical data.
