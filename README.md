@@ -8,7 +8,9 @@ A Django-based server that uses the Modified Preorder Tree Traversal (MPTT) tech
 
 ## Usage Instructions
 
-NOT YET DEFINED
+Use the 'Add Folder' button to create a root folder
+Then add another folder to create subfolder for that root folder
+https://127.0.0.1 takes you to admin panel to also create folders (SEE CREDENTIAL BELOW)
 
 ## Credentials
 
