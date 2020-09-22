@@ -16,9 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from mptt_app.views import get_folders_view
+from mptt_app.views import get_folders_view, add_folder_view
 
 urlpatterns = [
-    path('', get_folders_view),
+    path('', get_folders_view, name="homepage"),
+    path('addfolder/', add_folder_view),
     path('admin/', admin.site.urls),
 ]

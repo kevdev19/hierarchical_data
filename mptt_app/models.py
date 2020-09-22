@@ -1,5 +1,6 @@
 from django.db import models
 from mptt.models import MPTTModel, TreeForeignKey
+from mptt.admin import MPTTModelAdmin
 
 class Folder(MPTTModel):
     name = models.CharField(max_length=200, unique=True)
